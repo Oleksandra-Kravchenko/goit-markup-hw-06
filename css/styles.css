@@ -529,6 +529,66 @@ button {
   color: #434455;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+  }
+
+  .principles-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .principles-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .principles-subtitle {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .principles {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .principles-item-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+  .principles-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .principles-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .principles-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  .principles-text {
+    font-weight: 400;
+  }
+}
 /*=== TEAM ===*/
 .team {
   background-color: #f4f4fd;
