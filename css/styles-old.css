@@ -247,8 +247,8 @@
 /* ==PORTFOLIO== */
 
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 .portfolio-title {
   font-weight: 700;
@@ -263,8 +263,8 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  /* column-gap: 24px;
+  row-gap: 48px; */
 }
 .portfolio-item {
   width: calc((100% - 48px) / 3);
